@@ -1,0 +1,29 @@
+{
+  "name": "temp",
+  "version": "0.0.0",
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "install": "^0.4.1",
+    "jquery": "^2.2.0",
+    "npm": "^3.5.3",
+    "three-orbit-controls": "^72.0.0",
+    "three.trackball": "0.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bowercopy": "^1.2.4",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsonlint": "^1.0.7",
+    "grunt-newer": "^1.1.1",
+    "load-grunt-tasks": "^3.4.0",
+    "stats-js": "^1.0.0-alpha1",
+    "time-grunt": "^1.3.0"
+  },
+  "scripts": {
+    "install": "grunt bowercopy"
+  }
+}
