@@ -1,11 +1,11 @@
 # 3D Wave Generator
 
-There is an example available on rickbross.com
+There is an example available on [rickbross.com](rickbross.com)
 
-To run this project, in your Terminal:
+To run this demo, in your Terminal:
 
 1. `cd` into your `/3d-wave-generator` directory
 2. Install the npm packages with `npm install`
-3. Produce a build with `grunt`
-4. `cd` into the build directory at `/3d-wave-generator/dist`
-5. Open `index.html` in your web browser.
+3. Produce a build with `grunt`. A server will automatically open the app in your browser.
+
+After you have made a build, you can open `/3d-wave-generator/dist/index.html` at any time to start the demo.
