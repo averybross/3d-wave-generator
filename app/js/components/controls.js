@@ -15,7 +15,7 @@ controlsObject.setControls = function(){
   this.controls = new OrbitControls( cameraManager.getCamera(), rendererManager.getRenderer().domElement );
 
 	this.controls.minDistance = gui.params.radius * 1.1;
-	this.controls.maxDistance = gui.params.radius * 20;
+	this.controls.maxDistance = gui.params.radius * 30;
 
 	this.controls.rotateSpeed = 1.0;
 	this.controls.zoomSpeed = 1.2;

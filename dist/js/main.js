@@ -13,7 +13,9 @@ cameraManager.setCamera = function(){
 		height = window.innerHeight;
 
   this.camera = new THREE.PerspectiveCamera(45, width / height, 0.01, 1000);
-  this.camera.position.z = 1.5;
+  this.camera.position.x = 180;
+  this.camera.position.y = 120;
+  this.camera.position.z = 180;
 
   return this.camera;
 
@@ -43,7 +45,7 @@ controlsObject.setControls = function(){
   this.controls = new OrbitControls( cameraManager.getCamera(), rendererManager.getRenderer().domElement );
 
 	this.controls.minDistance = gui.params.radius * 1.1;
-	this.controls.maxDistance = gui.params.radius * 20;
+	this.controls.maxDistance = gui.params.radius * 30;
 
 	this.controls.rotateSpeed = 1.0;
 	this.controls.zoomSpeed = 1.2;

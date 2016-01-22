@@ -12,7 +12,9 @@ cameraManager.setCamera = function(){
 		height = window.innerHeight;
 
   this.camera = new THREE.PerspectiveCamera(45, width / height, 0.01, 1000);
-  this.camera.position.z = 1.5;
+  this.camera.position.x = 180;
+  this.camera.position.y = 120;
+  this.camera.position.z = 180;
 
   return this.camera;
 

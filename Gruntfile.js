@@ -45,7 +45,7 @@ module.exports = function(grunt) {
                 files: [
                     base + '/js/**/*.js'
                 ],
-                tasks: ['jshint', 'browserify', 'serve']
+                tasks: ['browserify', 'serve']
             },
             css: {
                 files: [
@@ -107,5 +107,5 @@ module.exports = function(grunt) {
 
     grunt.registerTask('serve', ['connect:livereload','watch']);
 
-    grunt.registerTask('default', ['newer:jsonlint', 'newer:jshint', 'browserify','copy', 'serve']);
+    grunt.registerTask('default', ['browserify','copy', 'serve']);
 };
