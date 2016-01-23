@@ -1,6 +1,6 @@
 # 3D Wave Generator
 
-There is an example available on [rickbross.com](http://rickbross.com)
+There is an example available on [rickbross.com](http://rickbross.com/wave/)
 
 To run this demo, in your Terminal:
 
